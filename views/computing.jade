@@ -1,0 +1,43 @@
+extends layout
+
+block content
+    // Content
+    .content
+        // Carousel
+        #myCarousel.carousel.slide
+            .carousel-inner
+                .item.active
+                    img(src="images/oldSiteScreenshot.png", alt="")
+                    .container
+                        .carousel-caption(style="background-color: rgba(0,0,0, 0.9);")
+                            h1 This Website
+                            p.lead <em>used</em> to look like this screenshot.
+           
+                .item
+                    img(src="images/tsrScreenshot.png", alt="")
+                    .container
+                        .carousel-caption(style="background-color: rgba(0,0,0, 0.9);")
+                            h1 
+                                a(href="http://tsr.tv", target="_blank") TSR
+                            p.lead This was one of the coolest websites I ever worked on. They decided to go with a WordPress theme instead. Click the title to see it.</p>
+           
+                .item
+                    img(src="images/drjung.png", alt="")
+                    .container
+                        .carousel-caption(style="background-color: rgba(0,0,0, 0.9);")
+                            h1
+                                a(href="http://drjung.info", target="_blank") Dr. Jung's
+                            p.lead This site was for a business in Seoul. It was one of my first forays into responsive design and producing editable documents. Click the title to see it.
+    
+            a(class="left carousel-control", href="#myCarousel", data-slide="prev") &lsaquo;
+            a(class="right carousel-control", href="#myCarousel", data-slide="next") &rsaquo;
+    
+        // Page Content
+        .container.pages 
+            .featurette
+                img(class="featurette-image pull-right", src="images/me.jpg")
+                h2.featurette-heading Programming - 
+                    span.muted A Labor of Love.
+                p.lead Programming is a kind of nexus for all my interests and ideas. The single most attractive aspect of working with computers (for me) is that I can solve problems according to a given set of rules determined by the programming language, API, etc., and outcomes are more or less concrete--it either works, or it doesn't. I like a certain lack of ambiguity, and I like finding creative, elegant, and logical ways to make things do what they are supposed to do--or do them better. This is the part of design that really fascinates me.  It's like we can build anything we can think of, and the only limitation is our ability to imagine something better.
+    
+        hr.featurette-divider

@@ -1,0 +1,79 @@
+extends layout
+
+block content
+    // #{title}
+    // Carousel
+    #myCarousel.carousel.slide
+        .carousel-inner
+            .item.active
+                img(src="images/PhilMeRelson2.jpg", alt="")
+                .container
+                    .carousel-caption
+                        h1 Martial Arts
+                        p.lead I started martial arts when I was six. I taught in the military, and these days I'm a brown belt under Relson Gracie.
+                        a(class="btn btn-large btn-warning", href="/fitness.php") More
+    
+            .item
+                img(src="images/me.jpg", alt="")
+                .container
+                    .carousel-caption
+                        h1 Technology
+                        p.lead Computers. The Web. Programming. I love technology! I'm not exactly a futurist, but I do believe that our minds are our only hope.
+                        a(class="btn btn-large btn-success", href="/computing.php") More
+       
+            .item
+                img(src="images/drumming1.jpg", alt="")
+                .container
+                    .carousel-caption
+                        h1 Drumming
+                        p.lead I started drumming when I was 12, and I never stopped. These days, I play in several bands. Plus, there is the occasional call to sit in on a gig.
+                        a(class="btn btn-large btn-info", href="/music.php") More
+ 
+        a(class="left carousel-control", href="#myCarousel", data-slide="prev") &lsaquo;
+        a(class="right carousel-control", href="#myCarousel", data-slide="next") &rsaquo;
+
+    // Giant Buttons and featurettes
+    .container.marketing
+
+        // Three columns below the carousel 
+        .row-fluid
+            a(class="span4 btn btn-warning", href="/fitness")
+                h2 Fitness
+
+            a(class="span4 btn btn-success", href="/computing")
+                h2 Computing
+       
+            a(class="span4 btn btn-info", href="/music.php")
+                h2 Music  
+
+        hr.featurette-divider
+      
+        // RIBBON
+        .ribbon
+            span More Fun Facts & Tidbits! 
+
+        // START THE FEATURETTES
+
+        .featurette
+            img(class="featurette-image pull-right", src="images/4th.png", style="")
+            h2.featurette-heading U.S.M.C. - 
+                span.muted Semper Fidelis.
+            p.lead Three days after graduating high school, I was off to boot camp. My first four years as a Marine were spent as a tank mechanic. For my last four years, I was a Recon Marine.
+
+        hr.featurette-divider
+
+        .featurette
+            img(class="featurette-image pull-left", src="images/rgjj.png", style="")
+            h2.featurette-heading Martial Arts - 
+                span.muted Finding Balance.
+            p.lead Martial arts have been a big part of my life. They appeal to me because they can develop the mind and the body. I love testing philosophies, and the martial arts provide a <em>very</em> concrete way of doing just that.
+
+        hr.featurette-divider
+
+        .featurette
+            img(class="featurette-image pull-right", src="images/TJCLibrary.jpg", style="border-radius: 100%; border: 5px solid #ccc;")
+            h2.featurette-heading Trying New Things - 
+                span.muted Absolutely Necessary.
+            p.lead Whether I'm sky diving, traveling, or learning Ruby on Rails, I have an insatiable curiosity about the world. I don't just want to read about it. I want to <em>experience</em> it firsthand.
+
+        hr.featurette-divider

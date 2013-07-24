@@ -1,0 +1,408 @@
+    /* GLOBAL STYLES
+    -------------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+
+    body {
+
+     /* GRADIENT */
+     /* fallback */
+      background-color: #FAFAFA;
+    
+      /* Safari 4-5, Chrome 1-9 */
+      /*background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FF7519), to(#33CCCC));*/
+    
+      /* Safari 5.1, Chrome 10+ */
+      /*background: -webkit-linear-gradient(top, #FF7519, #33CCCC);*/
+    
+      /* Firefox 3.6+ */
+      /*background: -moz-linear-gradient(top, #FF7519, #33CCCC);*/
+    
+      /* IE 10 */
+      /*background: -ms-linear-gradient(top, #FF7519, #33CCCC);*/
+    
+      /* Opera 11.10+ */
+     /* background: -o-linear-gradient(top, #FF7519, #33CCCC); */
+
+    background: #fff url('/images/squairy_light.png') repeat fixed center;
+     
+    }
+
+    
+/************************************
+*************************************
+              HEADER 
+*************************************
+************************************/
+#contactModal h3{
+  text-align: center;
+}
+
+#info {
+  padding: 2%;
+  font-size: 2em;
+  line-height: 2em;  
+}
+
+#infoLeft {
+  float: left;
+  text-align: right;
+}
+
+#infoRight {
+  float: left;
+  margin-left: 5%;
+}
+
+#aboutTXT {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+
+    /* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+    
+    .navbar {
+        box-shadow: 3px 3px 5px rgba(255,255,255, 0.7);
+    }
+    #brand {
+        color: black;
+    }
+    #brand:hover {
+        color: white;
+    }
+
+    /* CONTENT WRAPPER
+    -------------------------------------------------- */
+    .content {
+      margin-top: 42px;
+    }
+
+    /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+    /* Carousel base class */
+    .carousel {
+      margin-bottom: 40px;
+    }
+
+    .carousel .container {
+      position: relative;
+      z-index: 9;
+      width: 100%;
+      height: 100%;
+      box-shadow: inset 0 0 300px 50px #000;
+    }
+
+    .carousel-control {
+      height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+    }
+
+    .carousel .item {
+      height: 500px;
+    }
+
+    .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 500px;
+    }
+
+    .carousel-caption {
+      position: relative;
+      left: 10%;
+      bottom: -50px;
+      width: 400px;
+      padding: 0 10px 10px 20px;
+      margin-top: 240px;
+      border-radius: 3%;
+      text-align: left;
+      background: transparent;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0, 0.5);
+    }
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+    
+    /* HERO UNIT
+    -------------------------------------------------- */
+
+    .hero-unit {
+        background: #666 url('/images/tweed.png') repeat fixed center;
+        color: #ddd;
+    }
+    
+    .hero-unit h1 {
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8), -1px -1px 1px rgba(0, 0, 0, 0.8);
+    }
+    
+    .hero-unit p {
+        margin-top: 40px;
+    }
+
+    /* MARKETING CONTENT
+    -------------------------------------------------- */
+
+    /* Center align the text within the three columns below the carousel */
+    .marketing .span4 {
+      text-align: center;
+    }
+    .marketing h2 {
+      font-weight: normal;
+      font-size: 2.5em;
+    }
+    .marketing .span4 p {
+      font-size: 1.3em;
+      line-height: 1.5em;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    
+    .marketing btn {
+
+    }
+
+    
+    /* RIBBON BANNER
+    ------------------------------------------------- */
+
+.ribbon  { 
+    position: relative;  
+    width: 70%;  
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: bold;  
+    padding: 6px 20px 6px 1em;  
+    margin: 30px 10px 40px 10%;  
+    color: #333;  
+    background-color: #FF6600;    
+    -webkit-box-shadow: 0px 2px 4px #888;  
+    -moz-box-shadow: 0px 2px 4px #888;  
+    box-shadow: 0px 2px 4px #888; 
+
+    font-family: 'Pacifico', cursive;
+    text-shadow:1px 1px 1px rgba(0,0,0, 0.5), -1px -1px 1px rgba(255, 255, 255, 0.7); 
+    text-align: center;
+ 
+}
+.ribbon span {
+    display: block;
+    margin-right: 5%;
+}
+
+/* The ":after" parts are the shadowed triangles underneath the main banner */
+
+.ribbon:after  {  
+    content: ' ';  
+    position: absolute;  
+    width: 0;  
+    height: 0;  
+    left: 0px;  
+    top: 100%;  
+    border-width: 5px 10px;  
+    border-style: solid;  
+    border-color: #666 #666 transparent transparent;  
+}  
+.ribbon span:after  {  
+    content: ' ';  
+    position: absolute;  
+    width: 0;  
+    height: 0;  
+    right: 0px;  
+    top: 100%;  
+    border-width: 5px 10px;  
+    border-style: solid;  
+    border-color: #666 transparent transparent #666 ;  
+}
+
+/* The ":before" parts are the "folded" ends of the banner. */
+
+.ribbon:before  {  
+    content: ' ';  
+    position: absolute;  
+    width: 60px;  
+    height: 0;  
+    left: -90px;  
+    bottom: -10px;  
+    border-width: 45px 25px;  
+    border-style: solid;   
+    border-color: #E65C00 #E65C00 #E65C00 transparent; 
+    z-index: -1;  
+}  
+
+.ribbon span:before  {  
+    content: ' ';  
+    position: absolute;  
+    width: 60px;  
+    height: 0;  
+    right: -90px;  
+    bottom: -10px;  
+    border-width: 45px 25px;  
+    border-style: solid;  
+    border-color: #E65C00 transparent #E65C00 #E65C00;
+    z-index: -1;  
+} 
+
+
+    /* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      margin: 60px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -100px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+      width: 300px; 
+      height: 300px;
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+      margin-top: -20px;
+      text-shadow:1px 1px 1px rgba(255, 255, 255, 0.7), -1px -1px 1px rgba(0, 0, 0, 0.7);
+    }
+
+/* Pages
+------------------------- */
+.pages {
+ margin-top: -40px;
+}
+
+.pages .featurette {
+  padding-top: 98px;
+}
+
+.pages .featurette-image {
+  margin-top: -20px;
+  border: 5px solid #ccc;
+  border-radius: 5%;
+}
+
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+      
+      .navbar-inner {
+        border-radius: 0;
+        margin: 0;
+      }
+      .carousel {
+      margin-top: -20px;
+      margin-bottom: 40px;
+    }
+      .carousel .item {
+        height: 500px;
+      }
+      .carousel img {
+        width: auto;
+        height: 500px;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+        text-align: center;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 80px; /* This keeps the pictures from bumping into text */
+      }
+    }
+
+    @media (max-width: 767px) {
+
+      .navbar-inner {
+        margin: 0;
+      }
+      
+      #aboutModal .modal-body {
+          font-size: 0.7em; /* This size looks the best. */
+      }
+      
+      #contactModal .modal-body {
+          font-size: 0.55em; /* This is the maximum size that will fit in portrait mode */
+      }
+
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      .carousel .container {
+
+      }
+      .carousel .item {
+        height: 300px;
+      }
+      .carousel img {
+        height: 300px;
+      }
+      .carousel-caption {
+        width: 180px;
+        padding: 10px;
+        margin-top: 150px;
+        text-align: center;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead {
+          display: none;
+      }
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+      
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+
+        max-height: 30%;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+    }    
