@@ -1,0 +1,4 @@
+{"ts":1374587613538,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1374587895054,"patch":[[{"diffs":[[1,"{\n  \"name\": \"VenFu\",\n  \"version\": \"0.0.1\",\n  \"private\": true,\n  \"scripts\": {\n    \"start\": \"node app.js\"\n  },\n  \"dependencies\": {\n    \"express\": \"3.3.4\",\n    \"jade\": \"*\",\n    \"stylus\": \"*\",\n    \"nib\": \"*\"\n  }\n}"]],"start1":0,"start2":0,"length1":0,"length2":209}]],"length":209,"saved":false}
+{"ts":1374587997332,"patch":[[{"diffs":[[0,"\": \""],[-1,"VenFu"],[1,"jarvism"],[0,"\",\n "]],"start1":9,"start2":9,"length1":13,"length2":15}]],"length":211,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1374628854795,"patch":[[{"diffs":[[0,"de\":"],[-1," \"*\",\n    \"stylus\": \"*\",\n    \"nib\":"],[0," \"*\""]],"start1":162,"start2":162,"length1":43,"length2":8}]],"length":176,"saved":false}

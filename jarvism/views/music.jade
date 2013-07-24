@@ -1,0 +1,41 @@
+extends layout
+
+block content
+    // content
+    .content
+        // Carousel
+        #myCarousel.carousel.slide
+            .carousel-inner
+                .item.active
+                    img(src="images/DrumsMidan.jpg", alt="")
+                    .container
+                        .carousel-caption(style="background-color: rgba(0,0,0, 0.9);")
+                            h1 Midan Music Festival
+                            p.lead This was an outdoor music festival just outside Incheon, South Korea.
+      
+                .item
+                    img(src="images/RMTdrums.jpg", alt="")
+                    .container
+                        .carousel-caption(style="background-color: rgba(0,0,0, 0.9);")
+                            h1 RMT
+                            p.lead This was at a really cool Canadian bar in Seoul, South Korea, called Rocky Mountain Tavern.
+ 
+                .item
+                    img(src="images/PearlSnare.jpg", alt="")
+                    .container
+                        .carousel-caption(style="background-color: rgba(0,0,0, 0.9);")
+                            h1 The Sensitone
+                            p.lead This is my beloved "poor man's Black Beauty", and it cuts through metal like butter. It's also great for brushes and jazz.
+
+            a(class="left carousel-control", href="#myCarousel", data-slide="prev") &lsaquo;
+            a(class="right carousel-control", href="#myCarousel", data-slide="next") &rsaquo;
+
+    // Page Content
+    .container.pages 
+        .featurette
+            img(class="featurette-image pull-right", src="images/drums.jpg")
+            h2.featurette-heading Music - 
+                span.muted My First True Love.
+            p.lead I started playing drums when I was 12. I asked for a drum set almost immediately, but my mom said no way (of course, right?). So, one day when Mom was at work, I built a makeshift kit out of stuff I found around the house. Mom came home to a cacophony (I wasn't that good yet) born of cymbal-like objects suspended from the ceiling of my room by bits of yarn and string, our biggest cooking pot as a bass drum, and generally a mystifying example of a modern art masterpiece. With resignation in her eye, she finally acquiesced, and Santa Clause came early that year, bearing the cheapest drum kit from our local music store.
+
+    hr.featurette-divider

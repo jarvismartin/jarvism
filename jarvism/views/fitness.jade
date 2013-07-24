@@ -1,0 +1,40 @@
+extends layout
+
+block content
+    // Content
+    .content
+        // Carousel
+        #myCarousel.carousel.slide
+            .carousel-inner
+                .item.active
+                    img(src="images/GardenoftheGods.jpg", alt="")
+                    .container
+                        .carousel-caption(style="background-color: rgba(0,0,0, 0.9);")
+                            h1 Garden of the Gods
+                            p.lead This is where I learned that "No Scrambling" means you aren't supposed to climb without a rope.
+                .item
+                    img(src="images/KneeBar.jpg", alt="")
+                    .container
+                        .carousel-caption(style="background-color: rgba(0,0,0, 0.9);")
+                            h1 Break a Leg?
+                            p.lead Well...okay.
+          
+                .item
+                    img(src="images/LakeTravis.jpg", alt="")
+                    .container
+                        .carousel-caption(style="background-color: rgba(0,0,0, 0.9);")
+                            h1 Scuba Diving
+                            p.lead This is at the bottom of Lake Travis in Austin, Texas. I used to go diving several times per week.
+    
+            a(class="left carousel-control", href="#myCarousel", data-slide="prev") &lsaquo;
+            a(class="right carousel-control", href="#myCarousel", data-slide="next") &rsaquo;
+    
+        // Page Content
+        .container.pages
+            .featurette
+                img(class="featurette-image pull-right", src="images/choke.jpg", style="border: 5px solid #ccc; border-radius: 5%;")
+                h2.featurette-heading Fitness - 
+                    span.muted A Secret to Happiness.
+                p.lead My grandfather always said, "If you have your health, you have everything." He died a millionaire in excellent health, except for the emphysema. For the last few years before he died, he couldn't breathe well enough to enjoy anything. I have come to have a deep, abiding respect for this truism. No matter how much stuff I have, if my body doesn't feel good, I don't feel good. Therefore, I believe that fitness is its own reward. As a matter of fact, exercise is number one on the list of things that optimize brain function in John Medina's book <em>Brain Rules</em>. I just want to feel really good and have lots of energy. That's how I roll.
+    
+        hr.featurette-divider
