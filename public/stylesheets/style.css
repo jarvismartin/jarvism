@@ -26,6 +26,13 @@
     background: #fff url('/images/squairy_light.png') repeat fixed center;
      
     }
+    
+    img {
+      max-width: 100%;
+      
+      /* just in case, to force correct aspet ratio 
+      height: auto !important; */
+    }
 
     
 /************************************
